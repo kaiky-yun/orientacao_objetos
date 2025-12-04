@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}Relatório por Categoria - Controlador Financeiro{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h2>Relatório por Categoria</h2>
+</div>
+
+<div class="report-filters">
+    <form method="POST" class="filter-form">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="type">Tipo:</label>
+                <select id="type" name="type" class="form-control">
+                    <option value="">Todos</option>
+                    <option value="income" {% if filters.type == 'income' %}selected{% endif %}>Receitas</option>
+                    <option value="expense" {% if filters.type == 'expense' %}selected{% endif %}>Despesas</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="start_date">Data Inicial:</label>
+                <input 
+                    type="date" 
+                    id="start_date" 
+                    name="start_date" 
+                    value="{{ filters.start_date }}"
+                    class="form-control"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="end_date">Data Final:</label>
+                <input 
+                    type="date" 
+                    id="end_date" 
+                    name="end_date" 
+                    value="{{ filters.end_date }}"
+                    class="form-control"
+                >
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Gerar Relatório</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+{% if report_data %}
+<div class="report-results">
+    <h3>Resultado da Análise</h3>
+    
+    {% if report_data %}
+    <div class="category-report">
+        <table>
+            <thead>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% set total = report_data.values() | sum(attribute='amount.amount') %}
+                {% for category, data in report_data.items() %}
+                <tr>
+                    <td class="category-name">{{ category }}</td>
+                    <td class="amount amount-{{ data.type }}">{{ data.amount }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+
+    
+    {% else %}
+    <p class="empty-message">Nenhuma categoria encontrada com os filtros especificados</p>
+    {% endif %}
+</div>
+{% else %}
+<div class="empty-state">
+    <p>Selecione os filtros e clique em "Gerar Relatório" para visualizar os dados</p>
+</div>
+{% endif %}
+{% endblock %}

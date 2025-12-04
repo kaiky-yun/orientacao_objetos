@@ -1,0 +1,36 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.2:8000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 849-781-251
+127.0.0.1 - - [04/Dec/2025 16:48:52] "[32mGET / HTTP/1.1[0m" 302 -
+127.0.0.1 - - [04/Dec/2025 16:48:52] "GET /transactions/ HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:48:52] "GET /static/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:48:52] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:48:52] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:48:52] "GET /static/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:48:53] "[32mGET /logout HTTP/1.1[0m" 302 -
+127.0.0.1 - - [04/Dec/2025 16:48:53] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:48:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:48:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+127.0.0.1 - - [04/Dec/2025 16:49:00] "GET /transactions/ HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:49:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:02] "GET /reports/ HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:49:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:07] "GET /reports/by-category HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:49:07] "[36mGET /reports/by-category?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:07] "[36mGET /reports/by-category?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:07] "[36mGET /reports/by-category?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:08] "POST /reports/by-category HTTP/1.1" 200 -
+127.0.0.1 - - [04/Dec/2025 16:49:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Dec/2025 16:49:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
