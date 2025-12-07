@@ -10,7 +10,7 @@ auth_service = AuthService(user_repository)
 @auth_bp.route('/', methods=['GET'])
 def index():
     if 'user_id' in session:
-        return redirect(url_for('transaction.list_transactions'))
+        return redirect(url_for('dashboard.dashboard'))
     return redirect(url_for('auth.login'))
 @auth_bp.route('/login', methods=['GET', 'POST'])
 def login():
@@ -27,7 +27,7 @@ def login():
                 session['username'] = user.username
                 session['email'] = user.email
                 flash(f'Bem-vindo, {user.username}!', 'success')
-                return redirect(url_for('transaction.list_transactions'))
+                return redirect(url_for('dashboard.dashboard'))
             else:
                 flash('Credenciais inválidas', 'error')
         except Exception as e:

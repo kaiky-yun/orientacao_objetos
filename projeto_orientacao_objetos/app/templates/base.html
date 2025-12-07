@@ -15,6 +15,7 @@
                 <h1>Controlador Financeiro</h1>
             </div>
             <ul class="navbar-menu">
+                <li><a href="{{ url_for('dashboard.dashboard') }}" class="nav-link">Dashboard</a></li>
                 <li><a href="{{ url_for('transaction.list_transactions') }}" class="nav-link">Transações</a></li>
                 <li><a href="{{ url_for('investment.list_investments') }}" class="nav-link">Investimentos</a></li>
                 <li><a href="{{ url_for('report.index') }}" class="nav-link">Relatórios</a></li>
@@ -44,6 +45,7 @@
     </div>
 
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block scripts %}{% endblock %}
     {% block extra_js %}{% endblock %}
 </body>
 </html>

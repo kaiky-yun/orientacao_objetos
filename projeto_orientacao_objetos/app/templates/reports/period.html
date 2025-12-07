@@ -75,7 +75,6 @@
         <p>Total de transações: <strong>{{ report_data.transaction_count }}</strong></p>
     </div>
 
-    <!-- Análise por Categoria -->
     {% if report_data.by_category %}
     <div class="category-analysis">
         <h4>Análise por Categoria</h4>
@@ -98,7 +97,6 @@
     </div>
     {% endif %}
 
-    <!-- Transações Detalhadas -->
     {% if report_data.transactions %}
     <div class="transactions-table">
         <h4>Transações do Período</h4>

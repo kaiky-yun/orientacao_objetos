@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 from ..models import Transaction, Money, Category
+from flask import current_app
 class FinanceService:
     def __init__(self, transaction_repository):
         self.transaction_repository = transaction_repository
@@ -13,6 +14,7 @@ class FinanceService:
             occurred_at=occurred_at
         )
         self.transaction_repository.add(transaction)
+        self._emit_balance_update(user_id)
         return transaction
     def update_transaction(self, transaction_id, user_id, **kwargs):
         transaction = self.transaction_repository.get_by_id(transaction_id, user_id)
@@ -33,9 +35,11 @@ class FinanceService:
             id_=transaction_id
         )
         self.transaction_repository.update(updated_transaction)
+        self._emit_balance_update(user_id)
         return updated_transaction
     def delete_transaction(self, transaction_id, user_id):
         self.transaction_repository.delete(transaction_id, user_id)
+        self._emit_balance_update(user_id)
     def get_transaction(self, transaction_id, user_id):
         return self.transaction_repository.get_by_id(transaction_id, user_id)
     def list_transactions(self, user_id):
@@ -71,3 +75,12 @@ class FinanceService:
                 by_category[category_name] = Money(0)
             by_category[category_name] = by_category[category_name] + expense.amount
         return by_category
+
+    def _emit_balance_update(self, user_id):
+        balance = self.get_balance(user_id)
+        if hasattr(current_app, 'socketio'):
+            current_app.socketio.emit(
+                'balance_update',
+                {'balance': str(balance)},
+                room=user_id
+            )

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Dashboard - Controlador Financeiro{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h2>Dashboard</h2>
+</div>
+<div class="summary-cards">
+    <div class="summary-card balance">
+        <h3>Saldo Atual</h3>
+        <p class="amount" id="current-balance">{{ balance }}</p>
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}
+{{ super() }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js"></script>
+<script>
+    const socket = io();
+    socket.on('connect', function() {
+        console.log('Conectado ao Websocket');
+    });
+    socket.on('balance_update', function(data) {
+        console.log('Atualização de saldo recebida:', data);
+        const balanceElement = document.getElementById('current-balance');
+        if (balanceElement) {
+            balanceElement.textContent = data.balance;
+            const amount = parseFloat(data.balance.replace('R$', '').replace('.', '').replace(',', '.').trim());
+            if (amount >= 0) {
+                balanceElement.classList.remove('negative');
+                balanceElement.classList.add('positive');
+            } else {
+                balanceElement.classList.remove('positive');
+                balanceElement.classList.add('negative');
+            }
+        }
+    });
+</script>
+{% endblock %}
