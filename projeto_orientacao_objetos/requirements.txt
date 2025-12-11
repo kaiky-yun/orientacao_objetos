@@ -4,3 +4,5 @@ Flask-CORS==4.0.0
 Werkzeug==3.0.0
 bcrypt==4.1.2
 python-dotenv==1.0.0
+pytest
+pytest-cov

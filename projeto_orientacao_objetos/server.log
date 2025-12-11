@@ -500,3 +500,459 @@
 127.0.0.1 - - [09/Dec/2025 19:20:27] "GET /investments/ HTTP/1.1" 200 2168 0.002416
 127.0.0.1 - - [09/Dec/2025 19:20:27] "GET /static/css/style.css HTTP/1.1" 304 203 0.001635
 127.0.0.1 - - [09/Dec/2025 19:20:27] "GET /static/js/main.js HTTP/1.1" 304 200 0.000660
+(18632) accepted ('127.0.0.1', 63302)
+127.0.0.1 - - [10/Dec/2025 13:37:08] "GET /transactions/ HTTP/1.1" 302 588 0.001811
+(18632) accepted ('127.0.0.1', 63303)
+(18632) accepted ('127.0.0.1', 63304)
+127.0.0.1 - - [10/Dec/2025 13:37:08] "GET /login HTTP/1.1" 200 2359 0.001665
+127.0.0.1 - - [10/Dec/2025 13:37:08] "GET /static/css/style.css HTTP/1.1" 304 203 0.000739
+127.0.0.1 - - [10/Dec/2025 13:37:08] "GET /static/js/main.js HTTP/1.1" 304 200 0.000454
+127.0.0.1 - - [10/Dec/2025 13:37:17] "POST /login HTTP/1.1" 302 656 0.189069
+127.0.0.1 - - [10/Dec/2025 13:37:17] "GET /dashboard/ HTTP/1.1" 200 3113 0.001117
+127.0.0.1 - - [10/Dec/2025 13:37:17] "GET /static/css/style.css HTTP/1.1" 304 203 0.000392
+127.0.0.1 - - [10/Dec/2025 13:37:17] "GET /static/js/main.js HTTP/1.1" 304 200 0.000220
+127.0.0.1 - - [10/Dec/2025 13:37:17] "GET /socket.io/?EIO=4&transport=polling&t=Pi97yih HTTP/1.1" 200 300 0.000202
+127.0.0.1 - - [10/Dec/2025 13:37:17] "POST /socket.io/?EIO=4&transport=polling&t=Pi97yij&sid=jlMYbosPpdNj-XDZAAAO HTTP/1.1" 200 219 0.000680
+127.0.0.1 - - [10/Dec/2025 13:37:17] "GET /socket.io/?EIO=4&transport=polling&t=Pi97yil&sid=jlMYbosPpdNj-XDZAAAO HTTP/1.1" 200 257 0.000059
+(18632) accepted ('127.0.0.1', 63327)
+127.0.0.1 - - [10/Dec/2025 13:37:17] "GET /socket.io/?EIO=4&transport=polling&t=Pi97yin&sid=jlMYbosPpdNj-XDZAAAO HTTP/1.1" 200 181 0.000061
+127.0.0.1 - - [10/Dec/2025 13:37:17] "GET /socket.io/?EIO=4&transport=polling&t=Pi97yio&sid=jlMYbosPpdNj-XDZAAAO HTTP/1.1" 200 181 0.000048
+127.0.0.1 - - [10/Dec/2025 13:37:33] "GET /socket.io/?EIO=4&transport=websocket&sid=jlMYbosPpdNj-XDZAAAO HTTP/1.1" 200 0 15.976995
+127.0.0.1 - - [10/Dec/2025 13:37:33] "GET /transactions/ HTTP/1.1" 200 16871 0.005566
+127.0.0.1 - - [10/Dec/2025 13:37:33] "GET /static/css/style.css HTTP/1.1" 304 203 0.001211
+127.0.0.1 - - [10/Dec/2025 13:37:33] "GET /static/js/main.js HTTP/1.1" 304 200 0.001262
+127.0.0.1 - - [10/Dec/2025 13:37:33] "GET /static/css/style.css HTTP/1.1" 304 203 0.001442
+127.0.0.1 - - [10/Dec/2025 13:37:33] "GET /static/js/main.js HTTP/1.1" 304 200 0.001293
+(18632) accepted ('127.0.0.1', 63370)
+127.0.0.1 - - [10/Dec/2025 13:37:33] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 355 0.000550
+(18632) accepted ('127.0.0.1', 63371)
+(18632) accepted ('127.0.0.1', 63372)
+127.0.0.1 - - [10/Dec/2025 13:37:33] "GET /apple-touch-icon.png HTTP/1.1" 404 355 0.000712
+127.0.0.1 - - [10/Dec/2025 13:37:33] "GET /favicon.ico HTTP/1.1" 404 355 0.000274
+127.0.0.1 - - [10/Dec/2025 13:37:38] "GET /reports/ HTTP/1.1" 200 8986 0.006840
+127.0.0.1 - - [10/Dec/2025 13:37:38] "GET /static/css/style.css HTTP/1.1" 304 203 0.001667
+127.0.0.1 - - [10/Dec/2025 13:37:38] "GET /static/js/main.js HTTP/1.1" 304 200 0.000620
+(18632) accepted ('127.0.0.1', 64684)
+(18632) accepted ('127.0.0.1', 64685)
+127.0.0.1 - - [10/Dec/2025 13:46:54] "GET /reports/by-category HTTP/1.1" 200 2985 0.001215
+127.0.0.1 - - [10/Dec/2025 13:46:54] "GET /static/css/style.css HTTP/1.1" 304 203 0.000899
+127.0.0.1 - - [10/Dec/2025 13:46:54] "GET /static/js/main.js HTTP/1.1" 304 200 0.000648
+127.0.0.1 - - [10/Dec/2025 13:46:55] "POST /reports/by-category HTTP/1.1" 200 4833 0.004555
+127.0.0.1 - - [10/Dec/2025 13:46:55] "GET /static/css/style.css HTTP/1.1" 304 203 0.002308
+127.0.0.1 - - [10/Dec/2025 13:46:55] "GET /static/js/main.js HTTP/1.1" 304 200 0.001105
+(18632) accepted ('127.0.0.1', 64938)
+(18632) accepted ('127.0.0.1', 64939)
+127.0.0.1 - - [10/Dec/2025 13:48:42] "GET /investments/ HTTP/1.1" 200 4360 0.002878
+127.0.0.1 - - [10/Dec/2025 13:48:42] "GET /static/css/style.css HTTP/1.1" 304 203 0.001471
+127.0.0.1 - - [10/Dec/2025 13:48:42] "GET /static/js/main.js HTTP/1.1" 304 200 0.001376
+127.0.0.1 - - [10/Dec/2025 13:48:55] "GET /investments/939001c317774228a0985a30731b0203/edit HTTP/1.1" 200 4725 0.002290
+127.0.0.1 - - [10/Dec/2025 13:48:55] "GET /static/css/style.css HTTP/1.1" 304 203 0.001452
+127.0.0.1 - - [10/Dec/2025 13:48:55] "GET /static/js/main.js HTTP/1.1" 304 200 0.000713
+(18632) accepted ('127.0.0.1', 65496)
+127.0.0.1 - - [10/Dec/2025 13:52:40] "POST /investments/939001c317774228a0985a30731b0203/edit HTTP/1.1" 302 680 0.002433
+127.0.0.1 - - [10/Dec/2025 13:52:40] "GET /investments/ HTTP/1.1" 200 4886 0.001058
+127.0.0.1 - - [10/Dec/2025 13:52:40] "GET /static/css/style.css HTTP/1.1" 304 203 0.000698
+(18632) accepted ('127.0.0.1', 65497)
+127.0.0.1 - - [10/Dec/2025 13:52:40] "GET /static/js/main.js HTTP/1.1" 304 200 0.000338
+127.0.0.1 - - [10/Dec/2025 13:52:44] "GET /investments/46af8f58a48f42fa895942b5f169288d/edit HTTP/1.1" 200 4731 0.001750
+127.0.0.1 - - [10/Dec/2025 13:52:44] "GET /static/css/style.css HTTP/1.1" 304 203 0.001003
+127.0.0.1 - - [10/Dec/2025 13:52:44] "GET /static/js/main.js HTTP/1.1" 304 200 0.000619
+127.0.0.1 - - [10/Dec/2025 13:52:46] "GET /investments/ HTTP/1.1" 200 4365 0.003222
+127.0.0.1 - - [10/Dec/2025 13:52:46] "GET /static/css/style.css HTTP/1.1" 304 203 0.001869
+127.0.0.1 - - [10/Dec/2025 13:52:46] "GET /static/js/main.js HTTP/1.1" 304 200 0.001205
+127.0.0.1 - - [10/Dec/2025 13:52:47] "GET /investments/939001c317774228a0985a30731b0203/edit HTTP/1.1" 200 4797 0.002046
+127.0.0.1 - - [10/Dec/2025 13:52:47] "GET /static/css/style.css HTTP/1.1" 304 203 0.001369
+127.0.0.1 - - [10/Dec/2025 13:52:47] "GET /static/js/main.js HTTP/1.1" 304 200 0.001220
+127.0.0.1 - - [10/Dec/2025 13:52:49] "GET /investments/ HTTP/1.1" 200 4365 0.003011
+127.0.0.1 - - [10/Dec/2025 13:52:49] "GET /static/css/style.css HTTP/1.1" 304 203 0.001414
+127.0.0.1 - - [10/Dec/2025 13:52:49] "GET /static/js/main.js HTTP/1.1" 304 200 0.000847
+127.0.0.1 - - [10/Dec/2025 13:52:50] "GET /investments/46af8f58a48f42fa895942b5f169288d/edit HTTP/1.1" 200 4731 0.002731
+127.0.0.1 - - [10/Dec/2025 13:52:50] "GET /static/css/style.css HTTP/1.1" 304 203 0.000784
+127.0.0.1 - - [10/Dec/2025 13:52:50] "GET /static/js/main.js HTTP/1.1" 304 200 0.000903
+(18632) accepted ('127.0.0.1', 49486)
+127.0.0.1 - - [10/Dec/2025 13:55:17] "POST /investments/46af8f58a48f42fa895942b5f169288d/edit HTTP/1.1" 302 680 0.002410
+127.0.0.1 - - [10/Dec/2025 13:55:17] "GET /investments/ HTTP/1.1" 200 4886 0.002279
+127.0.0.1 - - [10/Dec/2025 13:55:17] "GET /static/js/main.js HTTP/1.1" 304 200 0.000879
+(18632) accepted ('127.0.0.1', 49487)
+127.0.0.1 - - [10/Dec/2025 13:55:17] "GET /static/css/style.css HTTP/1.1" 304 203 0.000987
+(18632) accepted ('127.0.0.1', 49796)
+(18632) accepted ('127.0.0.1', 49797)
+127.0.0.1 - - [10/Dec/2025 13:57:28] "GET /investments/create HTTP/1.1" 200 4797 0.002028
+127.0.0.1 - - [10/Dec/2025 13:57:28] "GET /static/css/style.css HTTP/1.1" 304 203 0.001432
+127.0.0.1 - - [10/Dec/2025 13:57:28] "GET /static/js/main.js HTTP/1.1" 304 200 0.001022
+127.0.0.1 - - [10/Dec/2025 13:57:53] "GET /investments/ HTTP/1.1" 200 4365 0.001590
+127.0.0.1 - - [10/Dec/2025 13:57:53] "GET /static/css/style.css HTTP/1.1" 304 203 0.001101
+127.0.0.1 - - [10/Dec/2025 13:57:53] "GET /static/js/main.js HTTP/1.1" 304 200 0.000704
+127.0.0.1 - - [10/Dec/2025 13:57:55] "GET /investments/939001c317774228a0985a30731b0203/edit HTTP/1.1" 200 4797 0.002146
+127.0.0.1 - - [10/Dec/2025 13:57:55] "GET /static/css/style.css HTTP/1.1" 304 203 0.001780
+127.0.0.1 - - [10/Dec/2025 13:57:55] "GET /static/js/main.js HTTP/1.1" 304 200 0.001080
+127.0.0.1 - - [10/Dec/2025 13:57:58] "GET /investments/ HTTP/1.1" 200 4365 0.002750
+(18632) accepted ('127.0.0.1', 49868)
+127.0.0.1 - - [10/Dec/2025 13:57:58] "GET /static/css/style.css HTTP/1.1" 304 203 0.001535
+127.0.0.1 - - [10/Dec/2025 13:57:58] "GET /static/js/main.js HTTP/1.1" 304 200 0.001061
+127.0.0.1 - - [10/Dec/2025 13:57:58] "GET /static/css/style.css HTTP/1.1" 304 203 0.001116
+127.0.0.1 - - [10/Dec/2025 13:57:58] "GET /static/js/main.js HTTP/1.1" 304 200 0.001217
+127.0.0.1 - - [10/Dec/2025 13:58:26] "POST /investments/create HTTP/1.1" 302 676 0.003394
+127.0.0.1 - - [10/Dec/2025 13:58:26] "GET /investments/ HTTP/1.1" 200 5839 0.002701
+127.0.0.1 - - [10/Dec/2025 13:58:26] "GET /static/css/style.css HTTP/1.1" 304 203 0.001572
+127.0.0.1 - - [10/Dec/2025 13:58:26] "GET /static/js/main.js HTTP/1.1" 304 200 0.001069
+127.0.0.1 - - [10/Dec/2025 13:58:30] "GET /investments/create HTTP/1.1" 200 4797 0.001104
+127.0.0.1 - - [10/Dec/2025 13:58:30] "GET /static/css/style.css HTTP/1.1" 304 203 0.001047
+127.0.0.1 - - [10/Dec/2025 13:58:30] "GET /static/js/main.js HTTP/1.1" 304 200 0.000781
+127.0.0.1 - - [10/Dec/2025 13:58:34] "GET /investments/46af8f58a48f42fa895942b5f169288d/edit HTTP/1.1" 200 4799 0.003640
+127.0.0.1 - - [10/Dec/2025 13:58:34] "GET /static/css/style.css HTTP/1.1" 304 203 0.001215
+127.0.0.1 - - [10/Dec/2025 13:58:34] "GET /static/js/main.js HTTP/1.1" 304 200 0.001256
+127.0.0.1 - - [10/Dec/2025 13:58:49] "POST /investments/46af8f58a48f42fa895942b5f169288d/edit HTTP/1.1" 302 680 0.002383
+127.0.0.1 - - [10/Dec/2025 13:58:49] "GET /investments/ HTTP/1.1" 200 5852 0.002026
+127.0.0.1 - - [10/Dec/2025 13:58:49] "GET /static/css/style.css HTTP/1.1" 304 203 0.001261
+127.0.0.1 - - [10/Dec/2025 13:58:49] "GET /static/js/main.js HTTP/1.1" 304 200 0.000983
+(18632) accepted ('127.0.0.1', 50230)
+127.0.0.1 - - [10/Dec/2025 14:00:24] "POST /investments/create HTTP/1.1" 302 676 0.002843
+127.0.0.1 - - [10/Dec/2025 14:00:24] "GET /investments/ HTTP/1.1" 200 6803 0.002387
+127.0.0.1 - - [10/Dec/2025 14:00:24] "GET /static/js/main.js HTTP/1.1" 304 200 0.000644
+(18632) accepted ('127.0.0.1', 50231)
+127.0.0.1 - - [10/Dec/2025 14:00:24] "GET /static/css/style.css HTTP/1.1" 304 203 0.000585
+(18632) accepted ('127.0.0.1', 56595)
+127.0.0.1 - - [10/Dec/2025 14:52:46] "GET /transactions/ HTTP/1.1" 200 16871 0.007681
+(18632) accepted ('127.0.0.1', 56596)
+(18632) accepted ('127.0.0.1', 56597)
+127.0.0.1 - - [10/Dec/2025 14:52:46] "GET /static/css/style.css HTTP/1.1" 304 203 0.001105
+127.0.0.1 - - [10/Dec/2025 14:52:46] "GET /static/js/main.js HTTP/1.1" 304 200 0.000593
+127.0.0.1 - - [10/Dec/2025 14:52:46] "GET /static/css/style.css HTTP/1.1" 304 203 0.000923
+127.0.0.1 - - [10/Dec/2025 14:52:46] "GET /static/js/main.js HTTP/1.1" 304 200 0.000910
+(18632) accepted ('127.0.0.1', 56599)
+127.0.0.1 - - [10/Dec/2025 14:52:46] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 355 0.001038
+(18632) accepted ('127.0.0.1', 56600)
+(18632) accepted ('127.0.0.1', 56601)
+127.0.0.1 - - [10/Dec/2025 14:52:46] "GET /apple-touch-icon.png HTTP/1.1" 404 355 0.000377
+127.0.0.1 - - [10/Dec/2025 14:52:46] "GET /favicon.ico HTTP/1.1" 404 355 0.000391
+127.0.0.1 - - [10/Dec/2025 14:52:49] "GET /investments/ HTTP/1.1" 200 6286 0.003856
+127.0.0.1 - - [10/Dec/2025 14:52:49] "GET /static/css/style.css HTTP/1.1" 304 203 0.001417
+127.0.0.1 - - [10/Dec/2025 14:52:49] "GET /static/js/main.js HTTP/1.1" 304 200 0.001075
+127.0.0.1 - - [10/Dec/2025 14:52:49] "GET /static/css/style.css HTTP/1.1" 304 203 0.000802
+127.0.0.1 - - [10/Dec/2025 14:52:49] "GET /static/js/main.js HTTP/1.1" 304 200 0.000632
+(18632) accepted ('127.0.0.1', 61428)
+(18632) accepted ('127.0.0.1', 61429)
+(18632) accepted ('127.0.0.1', 61430)
+(18632) accepted ('127.0.0.1', 61431)
+127.0.0.1 - - [10/Dec/2025 15:32:30] "GET /transactions/ HTTP/1.1" 200 16871 0.005829
+127.0.0.1 - - [10/Dec/2025 15:32:30] "GET /static/js/main.js HTTP/1.1" 304 200 0.001454
+127.0.0.1 - - [10/Dec/2025 15:32:30] "GET /static/css/style.css HTTP/1.1" 304 203 0.001056
+127.0.0.1 - - [10/Dec/2025 15:32:30] "GET /static/css/style.css HTTP/1.1" 304 203 0.000508
+127.0.0.1 - - [10/Dec/2025 15:32:30] "GET /static/js/main.js HTTP/1.1" 304 200 0.000555
+127.0.0.1 - - [10/Dec/2025 15:32:36] "GET /transactions/create HTTP/1.1" 200 4688 0.004986
+127.0.0.1 - - [10/Dec/2025 15:32:36] "GET /static/css/style.css HTTP/1.1" 304 203 0.002730
+127.0.0.1 - - [10/Dec/2025 15:32:36] "GET /static/js/main.js HTTP/1.1" 304 200 0.001645
+(18632) accepted ('127.0.0.1', 61596)
+127.0.0.1 - - [10/Dec/2025 15:33:50] "POST /transactions/create HTTP/1.1" 302 683 0.006469
+127.0.0.1 - - [10/Dec/2025 15:33:50] "GET /transactions/ HTTP/1.1" 200 18410 0.003537
+127.0.0.1 - - [10/Dec/2025 15:33:50] "GET /static/css/style.css HTTP/1.1" 304 203 0.000919
+(18632) accepted ('127.0.0.1', 61598)
+127.0.0.1 - - [10/Dec/2025 15:33:50] "GET /static/js/main.js HTTP/1.1" 304 200 0.000675
+127.0.0.1 - - [10/Dec/2025 15:33:57] "GET /transactions/277399faccea49a1bce3756116c72fa3/edit HTTP/1.1" 200 6533 0.003282
+127.0.0.1 - - [10/Dec/2025 15:33:57] "GET /static/css/style.css HTTP/1.1" 304 203 0.001678
+127.0.0.1 - - [10/Dec/2025 15:33:57] "GET /static/js/main.js HTTP/1.1" 304 200 0.001086
+127.0.0.1 - - [10/Dec/2025 15:34:10] "POST /transactions/277399faccea49a1bce3756116c72fa3/edit HTTP/1.1" 302 687 0.005420
+127.0.0.1 - - [10/Dec/2025 15:34:10] "GET /transactions/ HTTP/1.1" 200 18414 0.003032
+127.0.0.1 - - [10/Dec/2025 15:34:10] "GET /static/css/style.css HTTP/1.1" 304 203 0.000857
+127.0.0.1 - - [10/Dec/2025 15:34:10] "GET /static/js/main.js HTTP/1.1" 304 200 0.000682
+127.0.0.1 - - [10/Dec/2025 15:34:20] "GET /transactions/277399faccea49a1bce3756116c72fa3/edit HTTP/1.1" 200 6533 0.002596
+127.0.0.1 - - [10/Dec/2025 15:34:20] "GET /static/css/style.css HTTP/1.1" 304 203 0.001607
+127.0.0.1 - - [10/Dec/2025 15:34:20] "GET /static/js/main.js HTTP/1.1" 304 200 0.000851
+127.0.0.1 - - [10/Dec/2025 15:34:23] "POST /transactions/277399faccea49a1bce3756116c72fa3/edit HTTP/1.1" 302 687 0.007512
+127.0.0.1 - - [10/Dec/2025 15:34:23] "GET /transactions/ HTTP/1.1" 200 18414 0.003483
+127.0.0.1 - - [10/Dec/2025 15:34:23] "GET /static/css/style.css HTTP/1.1" 304 203 0.000800
+127.0.0.1 - - [10/Dec/2025 15:34:23] "GET /static/js/main.js HTTP/1.1" 304 200 0.000587
+(18632) accepted ('127.0.0.1', 61803)
+127.0.0.1 - - [10/Dec/2025 15:34:59] "GET /transactions/create HTTP/1.1" 200 4688 0.001818
+127.0.0.1 - - [10/Dec/2025 15:34:59] "GET /static/css/style.css HTTP/1.1" 304 203 0.002202
+(18632) accepted ('127.0.0.1', 61804)
+127.0.0.1 - - [10/Dec/2025 15:34:59] "GET /static/js/main.js HTTP/1.1" 304 200 0.001305
+(18632) accepted ('127.0.0.1', 62051)
+127.0.0.1 - - [10/Dec/2025 15:36:34] "POST /transactions/create HTTP/1.1" 302 683 0.006554
+127.0.0.1 - - [10/Dec/2025 15:36:34] "GET /transactions/ HTTP/1.1" 200 19441 0.005108
+127.0.0.1 - - [10/Dec/2025 15:36:34] "GET /static/css/style.css HTTP/1.1" 304 203 0.001237
+(18632) accepted ('127.0.0.1', 62052)
+127.0.0.1 - - [10/Dec/2025 15:36:34] "GET /static/js/main.js HTTP/1.1" 304 200 0.001058
+127.0.0.1 - - [10/Dec/2025 15:36:35] "GET /transactions/create HTTP/1.1" 200 4688 0.001712
+127.0.0.1 - - [10/Dec/2025 15:36:35] "GET /static/css/style.css HTTP/1.1" 304 203 0.001764
+127.0.0.1 - - [10/Dec/2025 15:36:35] "GET /static/js/main.js HTTP/1.1" 304 200 0.001223
+(18632) accepted ('127.0.0.1', 62136)
+127.0.0.1 - - [10/Dec/2025 15:37:07] "POST /transactions/create HTTP/1.1" 302 683 0.004575
+127.0.0.1 - - [10/Dec/2025 15:37:07] "GET /transactions/ HTTP/1.1" 200 20477 0.004360
+127.0.0.1 - - [10/Dec/2025 15:37:07] "GET /static/css/style.css HTTP/1.1" 304 203 0.001059
+(18632) accepted ('127.0.0.1', 62137)
+127.0.0.1 - - [10/Dec/2025 15:37:07] "GET /static/js/main.js HTTP/1.1" 304 200 0.001307
+127.0.0.1 - - [10/Dec/2025 15:37:25] "GET /transactions/create HTTP/1.1" 200 4688 0.001117
+127.0.0.1 - - [10/Dec/2025 15:37:25] "GET /static/css/style.css HTTP/1.1" 304 203 0.001315
+127.0.0.1 - - [10/Dec/2025 15:37:25] "GET /static/js/main.js HTTP/1.1" 304 200 0.002170
+(18632) accepted ('127.0.0.1', 62269)
+127.0.0.1 - - [10/Dec/2025 15:37:58] "POST /transactions/create HTTP/1.1" 302 683 0.004697
+127.0.0.1 - - [10/Dec/2025 15:37:58] "GET /transactions/ HTTP/1.1" 200 21495 0.003702
+127.0.0.1 - - [10/Dec/2025 15:37:58] "GET /static/css/style.css HTTP/1.1" 304 203 0.001003
+(18632) accepted ('127.0.0.1', 62270)
+127.0.0.1 - - [10/Dec/2025 15:37:58] "GET /static/js/main.js HTTP/1.1" 304 200 0.000607
+127.0.0.1 - - [10/Dec/2025 15:38:07] "GET /transactions/create HTTP/1.1" 200 4688 0.002465
+127.0.0.1 - - [10/Dec/2025 15:38:07] "GET /static/css/style.css HTTP/1.1" 304 203 0.001652
+127.0.0.1 - - [10/Dec/2025 15:38:07] "GET /static/js/main.js HTTP/1.1" 304 200 0.000965
+(18632) accepted ('127.0.0.1', 62393)
+127.0.0.1 - - [10/Dec/2025 15:38:43] "GET /transactions/ HTTP/1.1" 200 20979 0.002443
+(18632) accepted ('127.0.0.1', 62394)
+(18632) accepted ('127.0.0.1', 62395)
+127.0.0.1 - - [10/Dec/2025 15:38:43] "GET /static/css/style.css HTTP/1.1" 304 203 0.001260
+127.0.0.1 - - [10/Dec/2025 15:38:43] "GET /static/js/main.js HTTP/1.1" 304 200 0.000673
+127.0.0.1 - - [10/Dec/2025 15:39:04] "POST /transactions/create HTTP/1.1" 302 683 0.005929
+127.0.0.1 - - [10/Dec/2025 15:39:04] "GET /transactions/ HTTP/1.1" 200 22522 0.005620
+127.0.0.1 - - [10/Dec/2025 15:39:04] "GET /static/css/style.css HTTP/1.1" 304 203 0.001060
+127.0.0.1 - - [10/Dec/2025 15:39:04] "GET /static/js/main.js HTTP/1.1" 304 200 0.000619
+127.0.0.1 - - [10/Dec/2025 15:39:20] "GET /reports/ HTTP/1.1" 200 8986 0.007729
+127.0.0.1 - - [10/Dec/2025 15:39:20] "GET /static/css/style.css HTTP/1.1" 304 203 0.001563
+127.0.0.1 - - [10/Dec/2025 15:39:20] "GET /static/js/main.js HTTP/1.1" 304 200 0.001166
+127.0.0.1 - - [10/Dec/2025 15:39:25] "GET /reports/monthly HTTP/1.1" 200 4709 0.002053
+127.0.0.1 - - [10/Dec/2025 15:39:25] "GET /static/css/style.css HTTP/1.1" 304 203 0.000947
+127.0.0.1 - - [10/Dec/2025 15:39:25] "GET /static/js/main.js HTTP/1.1" 304 200 0.001043
+127.0.0.1 - - [10/Dec/2025 15:39:32] "POST /reports/monthly HTTP/1.1" 200 10135 0.001960
+127.0.0.1 - - [10/Dec/2025 15:39:32] "GET /static/css/style.css HTTP/1.1" 304 203 0.001619
+127.0.0.1 - - [10/Dec/2025 15:39:32] "GET /static/js/main.js HTTP/1.1" 304 200 0.000707
+127.0.0.1 - - [10/Dec/2025 15:39:33] "GET /reports/ HTTP/1.1" 200 8986 0.009880
+127.0.0.1 - - [10/Dec/2025 15:39:33] "GET /static/css/style.css HTTP/1.1" 304 203 0.002826
+127.0.0.1 - - [10/Dec/2025 15:39:33] "GET /static/js/main.js HTTP/1.1" 304 200 0.002205
+127.0.0.1 - - [10/Dec/2025 15:39:35] "GET /reports/period HTTP/1.1" 200 3055 0.010036
+127.0.0.1 - - [10/Dec/2025 15:39:35] "GET /static/css/style.css HTTP/1.1" 304 203 0.000703
+127.0.0.1 - - [10/Dec/2025 15:39:35] "GET /static/js/main.js HTTP/1.1" 304 200 0.000376
+127.0.0.1 - - [10/Dec/2025 15:39:46] "POST /reports/period HTTP/1.1" 200 12849 0.004020
+127.0.0.1 - - [10/Dec/2025 15:39:46] "GET /static/css/style.css HTTP/1.1" 304 203 0.001535
+127.0.0.1 - - [10/Dec/2025 15:39:46] "GET /static/js/main.js HTTP/1.1" 304 200 0.000645
+127.0.0.1 - - [10/Dec/2025 15:39:56] "POST /reports/period HTTP/1.1" 200 10091 0.005077
+127.0.0.1 - - [10/Dec/2025 15:39:56] "GET /static/css/style.css HTTP/1.1" 304 203 0.001182
+127.0.0.1 - - [10/Dec/2025 15:39:56] "GET /static/js/main.js HTTP/1.1" 304 200 0.000791
+127.0.0.1 - - [10/Dec/2025 15:39:59] "POST /reports/period HTTP/1.1" 200 12849 0.002947
+127.0.0.1 - - [10/Dec/2025 15:39:59] "GET /static/css/style.css HTTP/1.1" 304 203 0.001417
+127.0.0.1 - - [10/Dec/2025 15:39:59] "GET /static/js/main.js HTTP/1.1" 304 200 0.000682
+127.0.0.1 - - [10/Dec/2025 15:40:04] "GET /dashboard/ HTTP/1.1" 200 2611 0.002788
+127.0.0.1 - - [10/Dec/2025 15:40:04] "GET /static/css/style.css HTTP/1.1" 304 203 0.001433
+127.0.0.1 - - [10/Dec/2025 15:40:04] "GET /static/js/main.js HTTP/1.1" 304 200 0.001044
+127.0.0.1 - - [10/Dec/2025 15:40:04] "GET /socket.io/?EIO=4&transport=polling&t=Pi9a3Q7 HTTP/1.1" 200 300 0.000561
+127.0.0.1 - - [10/Dec/2025 15:40:04] "POST /socket.io/?EIO=4&transport=polling&t=Pi9a3QB&sid=Lif_Q7tZUYrrlnzLAAAQ HTTP/1.1" 200 219 0.001685
+127.0.0.1 - - [10/Dec/2025 15:40:04] "GET /socket.io/?EIO=4&transport=polling&t=Pi9a3QD&sid=Lif_Q7tZUYrrlnzLAAAQ HTTP/1.1" 200 257 0.000113
+(18632) accepted ('127.0.0.1', 62605)
+127.0.0.1 - - [10/Dec/2025 15:40:04] "GET /socket.io/?EIO=4&transport=polling&t=Pi9a3QG&sid=Lif_Q7tZUYrrlnzLAAAQ HTTP/1.1" 200 181 0.000167
+127.0.0.1 - - [10/Dec/2025 15:40:04] "GET /socket.io/?EIO=4&transport=polling&t=Pi9a3QH&sid=Lif_Q7tZUYrrlnzLAAAQ HTTP/1.1" 200 181 0.000067
+127.0.0.1 - - [10/Dec/2025 15:40:05] "GET /socket.io/?EIO=4&transport=websocket&sid=Lif_Q7tZUYrrlnzLAAAQ HTTP/1.1" 200 0 1.009850
+127.0.0.1 - - [10/Dec/2025 15:40:05] "GET /investments/ HTTP/1.1" 200 6286 0.003220
+127.0.0.1 - - [10/Dec/2025 15:40:05] "GET /static/js/main.js HTTP/1.1" 304 200 0.001490
+127.0.0.1 - - [10/Dec/2025 15:40:05] "GET /static/css/style.css HTTP/1.1" 304 203 0.001135
+127.0.0.1 - - [10/Dec/2025 15:40:05] "GET /static/css/style.css HTTP/1.1" 304 203 0.000887
+127.0.0.1 - - [10/Dec/2025 15:40:05] "GET /static/js/main.js HTTP/1.1" 304 200 0.000665
+127.0.0.1 - - [10/Dec/2025 15:40:08] "GET /reports/ HTTP/1.1" 200 8986 0.004958
+127.0.0.1 - - [10/Dec/2025 15:40:08] "GET /static/css/style.css HTTP/1.1" 304 203 0.001550
+127.0.0.1 - - [10/Dec/2025 15:40:08] "GET /static/js/main.js HTTP/1.1" 304 200 0.000741
+127.0.0.1 - - [10/Dec/2025 15:40:12] "GET /reports/ HTTP/1.1" 200 8986 0.007797
+127.0.0.1 - - [10/Dec/2025 15:40:12] "GET /static/css/style.css HTTP/1.1" 304 203 0.001783
+127.0.0.1 - - [10/Dec/2025 15:40:12] "GET /static/js/main.js HTTP/1.1" 304 200 0.001501
+127.0.0.1 - - [10/Dec/2025 15:40:14] "GET /reports/ HTTP/1.1" 200 8986 0.005747
+127.0.0.1 - - [10/Dec/2025 15:40:14] "GET /static/css/style.css HTTP/1.1" 304 203 0.000885
+127.0.0.1 - - [10/Dec/2025 15:40:14] "GET /static/js/main.js HTTP/1.1" 304 200 0.000467
+127.0.0.1 - - [10/Dec/2025 15:40:16] "GET /reports/period HTTP/1.1" 200 3055 0.002023
+127.0.0.1 - - [10/Dec/2025 15:40:16] "GET /static/js/main.js HTTP/1.1" 304 200 0.001608
+127.0.0.1 - - [10/Dec/2025 15:40:16] "GET /static/css/style.css HTTP/1.1" 304 203 0.000742
+127.0.0.1 - - [10/Dec/2025 15:40:27] "POST /reports/period HTTP/1.1" 200 13736 0.004391
+127.0.0.1 - - [10/Dec/2025 15:40:27] "GET /static/css/style.css HTTP/1.1" 304 203 0.001501
+127.0.0.1 - - [10/Dec/2025 15:40:27] "GET /static/js/main.js HTTP/1.1" 304 200 0.001047
+127.0.0.1 - - [10/Dec/2025 15:40:32] "GET /reports/ HTTP/1.1" 200 8986 0.010725
+127.0.0.1 - - [10/Dec/2025 15:40:32] "GET /static/css/style.css HTTP/1.1" 304 203 0.002334
+127.0.0.1 - - [10/Dec/2025 15:40:32] "GET /static/js/main.js HTTP/1.1" 304 200 0.003167
+127.0.0.1 - - [10/Dec/2025 15:40:35] "GET /reports/by-category HTTP/1.1" 200 2985 0.001036
+127.0.0.1 - - [10/Dec/2025 15:40:35] "GET /static/css/style.css HTTP/1.1" 304 203 0.000933
+127.0.0.1 - - [10/Dec/2025 15:40:35] "GET /static/js/main.js HTTP/1.1" 304 200 0.000714
+127.0.0.1 - - [10/Dec/2025 15:40:36] "GET /reports/ HTTP/1.1" 200 8986 0.005507
+127.0.0.1 - - [10/Dec/2025 15:40:36] "GET /static/css/style.css HTTP/1.1" 304 203 0.001924
+127.0.0.1 - - [10/Dec/2025 15:40:36] "GET /static/js/main.js HTTP/1.1" 304 200 0.001306
+127.0.0.1 - - [10/Dec/2025 15:40:38] "GET /transactions/ HTTP/1.1" 200 22006 0.005021
+127.0.0.1 - - [10/Dec/2025 15:40:38] "GET /static/js/main.js HTTP/1.1" 304 200 0.001595
+127.0.0.1 - - [10/Dec/2025 15:40:38] "GET /static/css/style.css HTTP/1.1" 304 203 0.000844
+127.0.0.1 - - [10/Dec/2025 15:40:38] "GET /static/css/style.css HTTP/1.1" 304 203 0.001233
+127.0.0.1 - - [10/Dec/2025 15:40:38] "GET /static/js/main.js HTTP/1.1" 304 200 0.000833
+127.0.0.1 - - [10/Dec/2025 15:40:51] "GET /reports/ HTTP/1.1" 200 8986 0.007289
+127.0.0.1 - - [10/Dec/2025 15:40:51] "GET /static/css/style.css HTTP/1.1" 304 203 0.002332
+127.0.0.1 - - [10/Dec/2025 15:40:51] "GET /static/js/main.js HTTP/1.1" 304 200 0.002204
+127.0.0.1 - - [10/Dec/2025 15:40:54] "GET /reports/period HTTP/1.1" 200 3055 0.001824
+127.0.0.1 - - [10/Dec/2025 15:40:54] "GET /static/css/style.css HTTP/1.1" 304 203 0.001735
+127.0.0.1 - - [10/Dec/2025 15:40:54] "GET /static/js/main.js HTTP/1.1" 304 200 0.001365
+127.0.0.1 - - [10/Dec/2025 15:41:02] "POST /reports/period HTTP/1.1" 200 10091 0.003501
+127.0.0.1 - - [10/Dec/2025 15:41:02] "GET /static/css/style.css HTTP/1.1" 304 203 0.001609
+127.0.0.1 - - [10/Dec/2025 15:41:02] "GET /static/js/main.js HTTP/1.1" 304 200 0.001130
+127.0.0.1 - - [10/Dec/2025 15:41:07] "GET /categories/ HTTP/1.1" 200 7760 0.001461
+127.0.0.1 - - [10/Dec/2025 15:41:07] "GET /static/css/style.css HTTP/1.1" 304 203 0.001014
+127.0.0.1 - - [10/Dec/2025 15:41:07] "GET /static/js/main.js HTTP/1.1" 304 200 0.000693
+127.0.0.1 - - [10/Dec/2025 15:41:07] "GET /static/css/style.css HTTP/1.1" 304 203 0.001043
+127.0.0.1 - - [10/Dec/2025 15:41:07] "GET /static/js/main.js HTTP/1.1" 304 200 0.000736
+127.0.0.1 - - [10/Dec/2025 15:41:08] "GET /transactions/ HTTP/1.1" 200 22006 0.004180
+127.0.0.1 - - [10/Dec/2025 15:41:08] "GET /static/css/style.css HTTP/1.1" 304 203 0.001529
+127.0.0.1 - - [10/Dec/2025 15:41:08] "GET /static/js/main.js HTTP/1.1" 304 200 0.001341
+127.0.0.1 - - [10/Dec/2025 15:41:08] "GET /static/css/style.css HTTP/1.1" 304 203 0.000645
+127.0.0.1 - - [10/Dec/2025 15:41:08] "GET /static/js/main.js HTTP/1.1" 304 200 0.000660
+127.0.0.1 - - [10/Dec/2025 15:41:09] "GET /dashboard/ HTTP/1.1" 200 2611 0.001850
+127.0.0.1 - - [10/Dec/2025 15:41:09] "GET /static/css/style.css HTTP/1.1" 304 203 0.001732
+127.0.0.1 - - [10/Dec/2025 15:41:09] "GET /static/js/main.js HTTP/1.1" 304 200 0.001231
+127.0.0.1 - - [10/Dec/2025 15:41:09] "GET /socket.io/?EIO=4&transport=polling&t=Pi9aJHg HTTP/1.1" 200 300 0.000236
+127.0.0.1 - - [10/Dec/2025 15:41:09] "POST /socket.io/?EIO=4&transport=polling&t=Pi9aJHj&sid=YyfOcfEQzfphwDlxAAAS HTTP/1.1" 200 219 0.001521
+127.0.0.1 - - [10/Dec/2025 15:41:09] "GET /socket.io/?EIO=4&transport=polling&t=Pi9aJHj.0&sid=YyfOcfEQzfphwDlxAAAS HTTP/1.1" 200 257 0.000111
+(18632) accepted ('127.0.0.1', 62761)
+127.0.0.1 - - [10/Dec/2025 15:41:09] "GET /socket.io/?EIO=4&transport=polling&t=Pi9aJHn&sid=YyfOcfEQzfphwDlxAAAS HTTP/1.1" 200 181 0.000160
+127.0.0.1 - - [10/Dec/2025 15:41:09] "GET /socket.io/?EIO=4&transport=polling&t=Pi9aJHo&sid=YyfOcfEQzfphwDlxAAAS HTTP/1.1" 200 181 0.000071
+127.0.0.1 - - [10/Dec/2025 15:41:12] "GET /socket.io/?EIO=4&transport=websocket&sid=YyfOcfEQzfphwDlxAAAS HTTP/1.1" 200 0 2.471204
+127.0.0.1 - - [10/Dec/2025 15:41:12] "GET /reports/ HTTP/1.1" 200 8986 0.007138
+127.0.0.1 - - [10/Dec/2025 15:41:12] "GET /static/css/style.css HTTP/1.1" 304 203 0.002098
+127.0.0.1 - - [10/Dec/2025 15:41:12] "GET /static/js/main.js HTTP/1.1" 304 200 0.002159
+(18632) accepted ('127.0.0.1', 57244)
+127.0.0.1 - - [11/Dec/2025 15:26:16] "GET /reports/ HTTP/1.1" 200 8986 0.010912
+127.0.0.1 - - [11/Dec/2025 15:26:16] "GET /static/js/main.js HTTP/1.1" 304 200 0.001647
+(18632) accepted ('127.0.0.1', 57245)
+127.0.0.1 - - [11/Dec/2025 15:26:16] "GET /static/css/style.css HTTP/1.1" 304 203 0.001049
+127.0.0.1 - - [11/Dec/2025 15:26:16] "GET /favicon.ico HTTP/1.1" 404 355 0.001068
+127.0.0.1 - - [11/Dec/2025 15:26:28] "GET /categories/ HTTP/1.1" 200 7760 0.002853
+(18632) accepted ('127.0.0.1', 57274)
+127.0.0.1 - - [11/Dec/2025 15:26:28] "GET /static/css/style.css HTTP/1.1" 304 203 0.001375
+127.0.0.1 - - [11/Dec/2025 15:26:28] "GET /static/js/main.js HTTP/1.1" 304 200 0.001110
+127.0.0.1 - - [11/Dec/2025 15:26:28] "GET /static/css/style.css HTTP/1.1" 304 203 0.001189
+127.0.0.1 - - [11/Dec/2025 15:26:28] "GET /static/js/main.js HTTP/1.1" 304 200 0.000888
+(18632) accepted ('127.0.0.1', 64276)
+(18632) accepted ('127.0.0.1', 64277)
+(18632) accepted ('127.0.0.1', 64278)
+127.0.0.1 - - [11/Dec/2025 16:16:34] "GET /transactions/ HTTP/1.1" 200 22006 0.006269
+127.0.0.1 - - [11/Dec/2025 16:16:34] "GET /static/css/style.css HTTP/1.1" 304 203 0.000670
+127.0.0.1 - - [11/Dec/2025 16:16:34] "GET /static/js/main.js HTTP/1.1" 304 200 0.000488
+(18632) accepted ('127.0.0.1', 64279)
+127.0.0.1 - - [11/Dec/2025 16:16:34] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 355 0.000439
+(18632) accepted ('127.0.0.1', 64280)
+(18632) accepted ('127.0.0.1', 64281)
+127.0.0.1 - - [11/Dec/2025 16:16:34] "GET /apple-touch-icon.png HTTP/1.1" 404 355 0.000374
+127.0.0.1 - - [11/Dec/2025 16:16:34] "GET /favicon.ico HTTP/1.1" 404 355 0.000491
+127.0.0.1 - - [11/Dec/2025 16:16:39] "GET /logout HTTP/1.1" 302 550 0.001837
+127.0.0.1 - - [11/Dec/2025 16:16:39] "GET /login HTTP/1.1" 200 2336 0.001157
+127.0.0.1 - - [11/Dec/2025 16:16:39] "GET /static/css/style.css HTTP/1.1" 304 203 0.001874
+127.0.0.1 - - [11/Dec/2025 16:16:39] "GET /static/js/main.js HTTP/1.1" 304 200 0.001237
+127.0.0.1 - - [11/Dec/2025 16:16:42] "GET /register HTTP/1.1" 200 2768 0.000703
+127.0.0.1 - - [11/Dec/2025 16:16:42] "GET /static/css/style.css HTTP/1.1" 304 203 0.000796
+127.0.0.1 - - [11/Dec/2025 16:16:42] "GET /static/js/main.js HTTP/1.1" 304 200 0.000515
+(18632) accepted ('127.0.0.1', 64443)
+127.0.0.1 - - [11/Dec/2025 16:17:42] "POST /register HTTP/1.1" 302 596 0.205029
+127.0.0.1 - - [11/Dec/2025 16:17:42] "GET /login HTTP/1.1" 200 2367 0.000308
+127.0.0.1 - - [11/Dec/2025 16:17:42] "GET /static/css/style.css HTTP/1.1" 304 203 0.000326
+(18632) accepted ('127.0.0.1', 64445)
+127.0.0.1 - - [11/Dec/2025 16:17:42] "GET /static/js/main.js HTTP/1.1" 304 200 0.000218
+127.0.0.1 - - [11/Dec/2025 16:17:49] "POST /login HTTP/1.1" 302 662 0.193435
+127.0.0.1 - - [11/Dec/2025 16:17:49] "GET /dashboard/ HTTP/1.1" 200 3131 0.001556
+127.0.0.1 - - [11/Dec/2025 16:17:49] "GET /static/css/style.css HTTP/1.1" 304 203 0.000407
+127.0.0.1 - - [11/Dec/2025 16:17:49] "GET /static/js/main.js HTTP/1.1" 304 200 0.000233
+127.0.0.1 - - [11/Dec/2025 16:17:49] "GET /socket.io/?EIO=4&transport=polling&t=PiEsI5U HTTP/1.1" 200 300 0.000203
+127.0.0.1 - - [11/Dec/2025 16:17:49] "POST /socket.io/?EIO=4&transport=polling&t=PiEsI5Y&sid=J5QchbboHEFrVjSvAAAU HTTP/1.1" 200 219 0.000750
+127.0.0.1 - - [11/Dec/2025 16:17:49] "GET /socket.io/?EIO=4&transport=polling&t=PiEsI5a&sid=J5QchbboHEFrVjSvAAAU HTTP/1.1" 200 256 0.000071
+(18632) accepted ('127.0.0.1', 64463)
+127.0.0.1 - - [11/Dec/2025 16:17:49] "GET /socket.io/?EIO=4&transport=polling&t=PiEsI5c&sid=J5QchbboHEFrVjSvAAAU HTTP/1.1" 200 181 0.000047
+127.0.0.1 - - [11/Dec/2025 16:17:49] "GET /socket.io/?EIO=4&transport=polling&t=PiEsI5d&sid=J5QchbboHEFrVjSvAAAU HTTP/1.1" 200 181 0.000045
+127.0.0.1 - - [11/Dec/2025 16:17:50] "GET /socket.io/?EIO=4&transport=websocket&sid=J5QchbboHEFrVjSvAAAU HTTP/1.1" 200 0 1.429459
+127.0.0.1 - - [11/Dec/2025 16:17:50] "GET /transactions/ HTTP/1.1" 200 2143 0.002244
+(18632) accepted ('127.0.0.1', 64466)
+127.0.0.1 - - [11/Dec/2025 16:17:50] "GET /static/css/style.css HTTP/1.1" 304 203 0.001036
+127.0.0.1 - - [11/Dec/2025 16:17:50] "GET /static/js/main.js HTTP/1.1" 304 200 0.000557
+127.0.0.1 - - [11/Dec/2025 16:17:50] "GET /static/css/style.css HTTP/1.1" 304 203 0.000640
+127.0.0.1 - - [11/Dec/2025 16:17:50] "GET /static/js/main.js HTTP/1.1" 304 200 0.000574
+127.0.0.1 - - [11/Dec/2025 16:17:51] "GET /transactions/create HTTP/1.1" 200 3660 0.002321
+127.0.0.1 - - [11/Dec/2025 16:17:51] "GET /static/css/style.css HTTP/1.1" 304 203 0.001393
+127.0.0.1 - - [11/Dec/2025 16:17:51] "GET /static/js/main.js HTTP/1.1" 304 200 0.000939
+(18632) accepted ('127.0.0.1', 64765)
+127.0.0.1 - - [11/Dec/2025 16:19:58] "GET /categories/ HTTP/1.1" 200 1939 0.001018
+(18632) accepted ('127.0.0.1', 64766)
+(18632) accepted ('127.0.0.1', 64767)
+127.0.0.1 - - [11/Dec/2025 16:19:58] "GET /static/js/main.js HTTP/1.1" 304 200 0.000981
+127.0.0.1 - - [11/Dec/2025 16:19:58] "GET /static/css/style.css HTTP/1.1" 304 203 0.000692
+127.0.0.1 - - [11/Dec/2025 16:19:59] "GET /categories/create HTTP/1.1" 200 2211 0.001798
+127.0.0.1 - - [11/Dec/2025 16:19:59] "GET /static/js/main.js HTTP/1.1" 304 200 0.001157
+127.0.0.1 - - [11/Dec/2025 16:19:59] "GET /static/css/style.css HTTP/1.1" 304 203 0.000688
+127.0.0.1 - - [11/Dec/2025 16:20:10] "POST /categories/create HTTP/1.1" 302 705 0.005322
+127.0.0.1 - - [11/Dec/2025 16:20:10] "GET /categories/ HTTP/1.1" 200 3325 0.002005
+127.0.0.1 - - [11/Dec/2025 16:20:10] "GET /static/css/style.css HTTP/1.1" 304 203 0.000975
+127.0.0.1 - - [11/Dec/2025 16:20:10] "GET /static/js/main.js HTTP/1.1" 304 200 0.000629
+127.0.0.1 - - [11/Dec/2025 16:20:11] "GET /transactions/ HTTP/1.1" 200 2143 0.002464
+127.0.0.1 - - [11/Dec/2025 16:20:11] "GET /static/js/main.js HTTP/1.1" 304 200 0.000963
+127.0.0.1 - - [11/Dec/2025 16:20:11] "GET /static/css/style.css HTTP/1.1" 304 203 0.002703
+127.0.0.1 - - [11/Dec/2025 16:20:11] "GET /static/js/main.js HTTP/1.1" 304 200 0.000924
+127.0.0.1 - - [11/Dec/2025 16:20:11] "GET /static/css/style.css HTTP/1.1" 304 203 0.000776
+127.0.0.1 - - [11/Dec/2025 16:20:12] "GET /transactions/create HTTP/1.1" 200 3802 0.001092
+127.0.0.1 - - [11/Dec/2025 16:20:12] "GET /static/css/style.css HTTP/1.1" 304 203 0.000759
+127.0.0.1 - - [11/Dec/2025 16:20:12] "GET /static/js/main.js HTTP/1.1" 304 200 0.000748
+127.0.0.1 - - [11/Dec/2025 16:20:27] "POST /transactions/create HTTP/1.1" 302 687 0.004233
+127.0.0.1 - - [11/Dec/2025 16:20:27] "GET /transactions/ HTTP/1.1" 200 3896 0.002121
+127.0.0.1 - - [11/Dec/2025 16:20:27] "GET /static/js/main.js HTTP/1.1" 304 200 0.001537
+127.0.0.1 - - [11/Dec/2025 16:20:27] "GET /static/css/style.css HTTP/1.1" 304 203 0.000619
+127.0.0.1 - - [11/Dec/2025 16:20:29] "GET /transactions/create HTTP/1.1" 200 3802 0.002213
+127.0.0.1 - - [11/Dec/2025 16:20:29] "GET /static/js/main.js HTTP/1.1" 304 200 0.001417
+127.0.0.1 - - [11/Dec/2025 16:20:29] "GET /static/css/style.css HTTP/1.1" 304 203 0.000972
+127.0.0.1 - - [11/Dec/2025 16:20:50] "POST /transactions/create HTTP/1.1" 302 687 0.005701
+127.0.0.1 - - [11/Dec/2025 16:20:50] "GET /transactions/ HTTP/1.1" 200 4923 0.002829
+127.0.0.1 - - [11/Dec/2025 16:20:50] "GET /static/css/style.css HTTP/1.1" 304 203 0.001148
+127.0.0.1 - - [11/Dec/2025 16:20:50] "GET /static/js/main.js HTTP/1.1" 304 200 0.000910
+127.0.0.1 - - [11/Dec/2025 16:20:51] "GET /transactions/create HTTP/1.1" 200 3802 0.001632
+127.0.0.1 - - [11/Dec/2025 16:20:51] "GET /static/css/style.css HTTP/1.1" 304 203 0.001562
+127.0.0.1 - - [11/Dec/2025 16:20:51] "GET /static/js/main.js HTTP/1.1" 304 200 0.000986
+(18632) accepted ('127.0.0.1', 65001)
+127.0.0.1 - - [11/Dec/2025 16:21:38] "POST /transactions/create HTTP/1.1" 302 687 0.004900
+127.0.0.1 - - [11/Dec/2025 16:21:38] "GET /transactions/ HTTP/1.1" 200 5953 0.002544
+127.0.0.1 - - [11/Dec/2025 16:21:38] "GET /static/css/style.css HTTP/1.1" 304 203 0.001031
+(18632) accepted ('127.0.0.1', 65002)
+127.0.0.1 - - [11/Dec/2025 16:21:38] "GET /static/js/main.js HTTP/1.1" 304 200 0.000712
+127.0.0.1 - - [11/Dec/2025 16:21:40] "GET /transactions/create HTTP/1.1" 200 3802 0.001772
+127.0.0.1 - - [11/Dec/2025 16:21:40] "GET /static/css/style.css HTTP/1.1" 304 203 0.001016
+127.0.0.1 - - [11/Dec/2025 16:21:40] "GET /static/js/main.js HTTP/1.1" 304 200 0.000696
+127.0.0.1 - - [11/Dec/2025 16:21:51] "POST /transactions/create HTTP/1.1" 302 687 0.003028
+127.0.0.1 - - [11/Dec/2025 16:21:51] "GET /transactions/ HTTP/1.1" 200 6983 0.002987
+127.0.0.1 - - [11/Dec/2025 16:21:51] "GET /static/css/style.css HTTP/1.1" 304 203 0.001583
+127.0.0.1 - - [11/Dec/2025 16:21:51] "GET /static/js/main.js HTTP/1.1" 304 200 0.000627
+(18632) accepted ('127.0.0.1', 65332)
+(18632) accepted ('127.0.0.1', 65333)
+127.0.0.1 - - [11/Dec/2025 16:23:57] "GET /logout HTTP/1.1" 302 550 0.001754
+127.0.0.1 - - [11/Dec/2025 16:23:57] "GET /login HTTP/1.1" 200 2336 0.001533
+127.0.0.1 - - [11/Dec/2025 16:23:57] "GET /static/js/main.js HTTP/1.1" 304 200 0.001637
+127.0.0.1 - - [11/Dec/2025 16:23:57] "GET /static/css/style.css HTTP/1.1" 304 203 0.000948
+127.0.0.1 - - [11/Dec/2025 16:24:03] "GET / HTTP/1.1" 302 361 0.000893
+(18632) accepted ('127.0.0.1', 65348)
+127.0.0.1 - - [11/Dec/2025 16:24:03] "GET /login HTTP/1.1" 200 1931 0.000531
+127.0.0.1 - - [11/Dec/2025 16:24:03] "GET /static/js/main.js HTTP/1.1" 304 200 0.000568
+127.0.0.1 - - [11/Dec/2025 16:24:03] "GET /static/css/style.css HTTP/1.1" 304 203 0.000380
+127.0.0.1 - - [11/Dec/2025 16:24:03] "GET /static/css/style.css HTTP/1.1" 304 203 0.000584
+127.0.0.1 - - [11/Dec/2025 16:24:03] "GET /static/js/main.js HTTP/1.1" 304 200 0.000593
+127.0.0.1 - - [11/Dec/2025 16:24:04] "GET / HTTP/1.1" 302 361 0.000766
+127.0.0.1 - - [11/Dec/2025 16:24:04] "GET /login HTTP/1.1" 200 1931 0.000649
+127.0.0.1 - - [11/Dec/2025 16:24:04] "GET /static/css/style.css HTTP/1.1" 304 203 0.000789
+127.0.0.1 - - [11/Dec/2025 16:24:04] "GET /static/js/main.js HTTP/1.1" 304 200 0.000352
+127.0.0.1 - - [11/Dec/2025 16:24:09] "POST /login HTTP/1.1" 302 662 0.193544
+127.0.0.1 - - [11/Dec/2025 16:24:09] "GET /dashboard/ HTTP/1.1" 200 3134 0.001398
+127.0.0.1 - - [11/Dec/2025 16:24:09] "GET /static/css/style.css HTTP/1.1" 304 203 0.000320
+127.0.0.1 - - [11/Dec/2025 16:24:09] "GET /static/js/main.js HTTP/1.1" 304 200 0.000233
+127.0.0.1 - - [11/Dec/2025 16:24:09] "GET /socket.io/?EIO=4&transport=polling&t=PiEtkqR HTTP/1.1" 200 300 0.000201
+127.0.0.1 - - [11/Dec/2025 16:24:09] "POST /socket.io/?EIO=4&transport=polling&t=PiEtkqV&sid=VhGVmNcuHpAV0rnoAAAW HTTP/1.1" 200 219 0.001095
+127.0.0.1 - - [11/Dec/2025 16:24:09] "GET /socket.io/?EIO=4&transport=polling&t=PiEtkqW&sid=VhGVmNcuHpAV0rnoAAAW HTTP/1.1" 200 259 0.000044
+(18632) accepted ('127.0.0.1', 65361)
+127.0.0.1 - - [11/Dec/2025 16:24:09] "GET /socket.io/?EIO=4&transport=polling&t=PiEtkqZ&sid=VhGVmNcuHpAV0rnoAAAW HTTP/1.1" 200 181 0.000048
+127.0.0.1 - - [11/Dec/2025 16:24:09] "GET /socket.io/?EIO=4&transport=polling&t=PiEtkqa&sid=VhGVmNcuHpAV0rnoAAAW HTTP/1.1" 200 181 0.000073
+127.0.0.1 - - [11/Dec/2025 16:24:10] "GET /socket.io/?EIO=4&transport=websocket&sid=VhGVmNcuHpAV0rnoAAAW HTTP/1.1" 200 0 1.106452
+127.0.0.1 - - [11/Dec/2025 16:24:10] "GET /transactions/ HTTP/1.1" 200 6462 0.003015
+127.0.0.1 - - [11/Dec/2025 16:24:10] "GET /static/js/main.js HTTP/1.1" 304 200 0.001004
+127.0.0.1 - - [11/Dec/2025 16:24:10] "GET /static/css/style.css HTTP/1.1" 304 203 0.000951
+127.0.0.1 - - [11/Dec/2025 16:24:10] "GET /static/css/style.css HTTP/1.1" 304 203 0.000933
+127.0.0.1 - - [11/Dec/2025 16:24:10] "GET /static/js/main.js HTTP/1.1" 304 200 0.001034
+127.0.0.1 - - [11/Dec/2025 16:24:12] "GET /transactions/create HTTP/1.1" 200 3802 0.001004
+127.0.0.1 - - [11/Dec/2025 16:24:12] "GET /static/css/style.css HTTP/1.1" 304 203 0.000906
+127.0.0.1 - - [11/Dec/2025 16:24:12] "GET /static/js/main.js HTTP/1.1" 304 200 0.000607
+127.0.0.1 - - [11/Dec/2025 16:24:29] "POST /transactions/create HTTP/1.1" 302 687 0.005264
+127.0.0.1 - - [11/Dec/2025 16:24:29] "GET /transactions/ HTTP/1.1" 200 8011 0.003176
+127.0.0.1 - - [11/Dec/2025 16:24:29] "GET /static/css/style.css HTTP/1.1" 304 203 0.001216
+127.0.0.1 - - [11/Dec/2025 16:24:29] "GET /static/js/main.js HTTP/1.1" 304 200 0.000666
+(18632) accepted ('127.0.0.1', 49694)
+(18632) accepted ('127.0.0.1', 49695)
+127.0.0.1 - - [11/Dec/2025 16:29:15] "GET /logout HTTP/1.1" 302 550 0.001694
+127.0.0.1 - - [11/Dec/2025 16:29:15] "GET /login HTTP/1.1" 200 2336 0.001016
+127.0.0.1 - - [11/Dec/2025 16:29:15] "GET /static/js/main.js HTTP/1.1" 304 200 0.000799
+127.0.0.1 - - [11/Dec/2025 16:29:15] "GET /static/css/style.css HTTP/1.1" 304 203 0.000434
