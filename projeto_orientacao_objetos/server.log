@@ -1,35 +1,4 @@
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 184-515-280
-(61060) wsgi starting up on http://0.0.0.0:8000
-(61060) accepted ('127.0.0.1', 61197)
-127.0.0.1 - - [11/Dec/2025 20:02:11] "GET /transactions/ HTTP/1.1" 302 588 0.003334
-(61060) accepted ('127.0.0.1', 61198)
-(61060) accepted ('127.0.0.1', 61199)
-127.0.0.1 - - [11/Dec/2025 20:02:11] "GET /login HTTP/1.1" 200 2359 0.009426
-127.0.0.1 - - [11/Dec/2025 20:02:11] "GET /static/css/style.css HTTP/1.1" 304 203 0.002783
-127.0.0.1 - - [11/Dec/2025 20:02:11] "GET /static/js/main.js HTTP/1.1" 304 200 0.000392
-127.0.0.1 - - [11/Dec/2025 20:02:11] "GET /static/css/style.css HTTP/1.1" 304 203 0.000326
-127.0.0.1 - - [11/Dec/2025 20:02:11] "GET /static/js/main.js HTTP/1.1" 304 200 0.000258
-127.0.0.1 - - [11/Dec/2025 20:02:19] "POST /login HTTP/1.1" 302 650 0.189902
-127.0.0.1 - - [11/Dec/2025 20:02:19] "GET /dashboard/ HTTP/1.1" 200 3102 0.002544
-127.0.0.1 - - [11/Dec/2025 20:02:19] "GET /static/css/style.css HTTP/1.1" 304 203 0.000361
-127.0.0.1 - - [11/Dec/2025 20:02:19] "GET /static/js/main.js HTTP/1.1" 304 200 0.000328
-127.0.0.1 - - [11/Dec/2025 20:02:19] "GET /socket.io/?EIO=4&transport=polling&t=PiFfglE HTTP/1.1" 200 300 0.000210
-127.0.0.1 - - [11/Dec/2025 20:02:19] "POST /socket.io/?EIO=4&transport=polling&t=PiFfglH&sid=IjKf2JT2yMex81GaAAAA HTTP/1.1" 200 219 0.000699
-127.0.0.1 - - [11/Dec/2025 20:02:19] "GET /socket.io/?EIO=4&transport=polling&t=PiFfglJ&sid=IjKf2JT2yMex81GaAAAA HTTP/1.1" 200 256 0.000166
-(61060) accepted ('127.0.0.1', 61216)
-127.0.0.1 - - [11/Dec/2025 20:02:19] "GET /socket.io/?EIO=4&transport=polling&t=PiFfglM&sid=IjKf2JT2yMex81GaAAAA HTTP/1.1" 200 181 0.000068
-127.0.0.1 - - [11/Dec/2025 20:02:19] "GET /socket.io/?EIO=4&transport=polling&t=PiFfglN&sid=IjKf2JT2yMex81GaAAAA HTTP/1.1" 200 181 0.000051
-127.0.0.1 - - [11/Dec/2025 20:02:20] "GET /socket.io/?EIO=4&transport=websocket&sid=IjKf2JT2yMex81GaAAAA HTTP/1.1" 200 0 1.119259
-127.0.0.1 - - [11/Dec/2025 20:02:20] "GET /transactions/ HTTP/1.1" 200 2136 0.010634
-127.0.0.1 - - [11/Dec/2025 20:02:20] "GET /static/css/style.css HTTP/1.1" 304 203 0.000949
-127.0.0.1 - - [11/Dec/2025 20:02:20] "GET /static/js/main.js HTTP/1.1" 304 200 0.000432
-127.0.0.1 - - [11/Dec/2025 20:02:20] "GET /static/css/style.css HTTP/1.1" 304 203 0.000363
-127.0.0.1 - - [11/Dec/2025 20:02:20] "GET /static/js/main.js HTTP/1.1" 304 200 0.000291
-(61060) accepted ('127.0.0.1', 61222)
-127.0.0.1 - - [11/Dec/2025 20:02:21] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 355 0.000492
-(61060) accepted ('127.0.0.1', 61223)
-(61060) accepted ('127.0.0.1', 61224)
-127.0.0.1 - - [11/Dec/2025 20:02:21] "GET /apple-touch-icon.png HTTP/1.1" 404 355 0.000280
-127.0.0.1 - - [11/Dec/2025 20:02:21] "GET /favicon.ico HTTP/1.1" 404 355 0.000288
+ * Debugger PIN: 136-143-455
+(21688) wsgi starting up on http://0.0.0.0:8000
